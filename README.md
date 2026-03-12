@@ -38,5 +38,32 @@ The tool monitors key server metrics including:
 - System log errors
 
 ---
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/claude125/linux-server-monitoring-tool.git
+
+Navigate into the project directory:
+
+cd linux-server-monitoring-tool
+
+Install required dependencies:
+
+pip install -r requirements.txt
+
+## Running the Tool
+
+Run the monitoring script:
+
+python monitor.py
+
+## Project Structure
+
+linux-server-monitoring-tool
+│
+├── README.md
+├── monitor.py
+└── requirements.txt
 
 ## Example Output
